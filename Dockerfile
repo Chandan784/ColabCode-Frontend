@@ -1,5 +1,5 @@
 # Use Node.js official image
-FROM node:18
+FROM node:20
 
 # Set working directory
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose port (usually 3000)
-EXPOSE 3001
+EXPOSE 4000
 
 # Start the app
 CMD ["npm", "start"]
