@@ -14,7 +14,6 @@
     "lodash": "^4.17.21",
     "next": "15.3.2",
     "react": "^19.0.0",
-    "react-ansi": "^2.0.1",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.5.2",
     "react-icons": "^5.5.0",

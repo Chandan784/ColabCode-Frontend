@@ -329,7 +329,6 @@ export default function Editor() {
         );
       } else {
         refreshEditor();
-
         setRoomId(response.roomId);
         setShowRoomModal(false);
         setOutput(
